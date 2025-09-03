@@ -19,7 +19,9 @@ const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath }
                 </div>
             </div>
             <div className='gradient-border animate-in fade-in duration-1000'>
-                <img src={imagePath} alt="resume"
+                <img
+                    src={imagePath}
+                    alt="resume"
                     className='w-full h-[350px] max-sm:h-[200px] object-cover object-top'
                 />
             </div>
